@@ -128,7 +128,7 @@ class RecipeResource(Resource) :
         except Error as e :
             print(e)
             return {'result':'success', 'error':str(e)}
-        
+            
 
         # 3. 결과를 응답한다.
 
